@@ -1,3 +1,5 @@
+package Exemplos.ProgramEstrut;
+
 import java.util.List;
 
 public class EstruturaRepeticao {

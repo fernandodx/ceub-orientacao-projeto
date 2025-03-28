@@ -1,5 +1,5 @@
-package Atividades;
 
+package Atividades.Scanner.src;
 import java.util.Scanner;
 
 public class AtividadeScanner {
@@ -25,7 +25,7 @@ public class AtividadeScanner {
         System.out.println("Digite o segundo número :");
         int Num2 = scanner.nextInt();
         System.out.println("A soma é " + (Num1 + Num2));
-        
+
         scanner.close();
     }
 }

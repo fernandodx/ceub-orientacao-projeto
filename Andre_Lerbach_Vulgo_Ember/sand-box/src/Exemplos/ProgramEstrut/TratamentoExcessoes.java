@@ -1,4 +1,4 @@
-
+package Exemplos.ProgramEstrut;
 
 public class TratamentoExcessoes {
     public static void main(String[] args) {

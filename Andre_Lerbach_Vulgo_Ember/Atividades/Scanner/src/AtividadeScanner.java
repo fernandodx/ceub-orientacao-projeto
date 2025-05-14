@@ -1,5 +1,4 @@
-package Atividades;
-
+package Atividades.Scanner.src;
 import java.util.Scanner;
 
 public class AtividadeScanner {
@@ -16,16 +15,6 @@ public class AtividadeScanner {
         System.out.println("[-----Resultado-----]");
         System.out.println(num1+num2);
 
-        System.out.println("");
-        System.out.println("");
-        System.out.println("Atividade Palíndromo");
-
-        System.out.println("Digite o primeiro número :");
-        int Num1 = scanner.nextInt();
-        System.out.println("Digite o segundo número :");
-        int Num2 = scanner.nextInt();
-        System.out.println("A soma é " + (Num1 + Num2));
-        
         scanner.close();
     }
 }

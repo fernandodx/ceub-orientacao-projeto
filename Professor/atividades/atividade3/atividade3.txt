@@ -1,0 +1,30 @@
+Atividade 3
+ - Finalize a atividade pokemon feita em salta de Aula criando as Classes Ginasio e Treinamento com suas respectivas ligações.
+
+
+•	Ginásio: um local onde vários Pokémon podem treinar. Um ginásio mantém uma lista de Pokémon que já treinaram lá (associação) e também organiza Treinamentos, que são atividades com início e fim (ex: “Treino de Força”).
+
+•	Treinamento: atividades realizadas em um ginásio. Elas são criadas pelo ginásio e existem enquanto o ginásio existir (agregação).
+
+
+Implemente as seguintes classes em Java com os atributos e métodos básicos:
+	•	Pokemon - ok
+	•	Luta - ok 
+	•	Ginasio
+	•	Treinamento
+
+Inclua os relacionamentos conforme descrito:
+	•	Um Pokémon pode participar de várias lutas e treinar em ginásios.
+	•	Uma luta só pode existir se houver dois Pokémon (composição).
+	•	Um ginásio mantém uma lista de Pokémon que treinaram lá (associação).
+	•	Um ginásio mantém uma lista de treinamentos realizados (agregação).
+
+
+Dicas:
+• Pokemon tem Lutas e GinasiosTreinados
+• Luta tem 2 Pokemons
+• Treinamento tem Descricão e Duração 
+• Ginasio tem nome, PokemonsTreinados e ListaTreinamentos
+
+
+

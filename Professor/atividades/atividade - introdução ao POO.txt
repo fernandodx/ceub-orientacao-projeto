@@ -1,0 +1,10 @@
+## Exercício para Sala de Aula - Faça na pasta ->  src/Atividades
+1. Criar uma classe chamada **ContaBancaria** com os seguintes atributos:
+   - Nome do titular
+   - Saldo
+   - Tipo da conta
+2. Criar métodos para:
+   - Depositar um valor
+   - Sacar um valor (verificando se tem saldo suficiente)
+   - Exibir informações da conta
+3. Criar um **programa principal** que instancie pelo menos duas contas bancárias e teste os métodos criados.

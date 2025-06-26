@@ -1,0 +1,5 @@
+// 1. Crie um programa que receba dois números inteiros e imprima a soma deles.
+// 2. Desenvolva um programa que leia uma lista de nomes e os imprima em ordem alfabética.
+// 3. Crie um programa para verificar se uma palavra é palíndromo. Por exemplo: 
+
+verificaPalindromo("civic")

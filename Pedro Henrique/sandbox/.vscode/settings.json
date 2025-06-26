@@ -3,10 +3,5 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-<<<<<<< HEAD
     ]
-=======
-    ],
-    "java.debug.settings.onBuildFailureProceed": true
->>>>>>> c0d9003 (Adiciona minha pasta com os exercícios)
 }

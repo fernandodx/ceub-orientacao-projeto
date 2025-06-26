@@ -1,0 +1,9 @@
+Atividade Prática em Sala de Aula 
+
+Objetivo:
+Criar uma classe Produto que siga os conceitos de encapsulamento, incluindo:
+Atributos privados: nome, preco e quantidade.
+Métodos get e set para os atributos.
+Um método comprar(int quantidade) que aumenta a quantidade do produto.
+Um método vender(int quantidade) que reduz a quantidade, se houver estoque suficiente.
+Siga a imagem UML

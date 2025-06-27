@@ -17,7 +17,7 @@ public class Java8Features {
 
         System.out.println(novaListaString);
 
-        List<String> idadesString = idades.stream()
+        List<String> idadeString = idades.stream()
                 .map(idade -> "Idade: " + idade)
                 .collect(Collectors.toList());
 

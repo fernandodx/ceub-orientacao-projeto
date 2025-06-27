@@ -1,5 +1,7 @@
+import view.JanelaPrincipal;
+
 public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("ALOHA");
+    public static void main(String[] args) {
+        new JanelaPrincipal().setVisible(true);
     }
 }

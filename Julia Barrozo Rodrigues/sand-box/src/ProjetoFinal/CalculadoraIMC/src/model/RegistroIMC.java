@@ -32,4 +32,9 @@ public class RegistroIMC extends Pessoa implements ICalculoIMC{
         return classificacao;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Nome: %s | Peso: %.2f kg | Altura: %.2f m | IMC: %.2f | Classificação: %s", getNome(), getPeso(), getAltura(), item, classificacao);
+    }
 }
+

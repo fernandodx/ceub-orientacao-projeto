@@ -11,7 +11,9 @@ public class IMCController implements IIMCController{
      
     @Override
     public void adicionarRegistro(String nome, double peso, double altura) {
-        RegistroIMC registroIMC = new RegistroIMC(nome, peso, altura);
+    RegistroIMC registroIMC = new RegistroIMC(nome, peso, altura);
+        registroIMC.calcularIMC();
+        registroIMC.classificarIMC();
         historico.add(registroIMC);
     }
 
